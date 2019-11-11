@@ -1,0 +1,234 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+		font-family  : Cambria;
+		background-color: lightsteelblue;
+		font-size : 2vw;
+	}
+	
+	
+.topnav {
+	background-color: lightblue;
+	overflow: hidden;
+}
+
+ .topnav a {
+	float: left;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 2vw;
+}
+
+a {
+	color:midnightblue;
+	text-decoration: none;
+}
+
+ .topnav a:hover {
+	background-color: cadetblue;
+	color: black;
+}
+
+header > .topnav a.active {
+	background-color: cadetblue;
+	color: white;
+}
+	h2 {
+		font-size: 4vw;
+		padding: 5px;
+		color: midnightblue;
+	}
+	
+	p {
+		color: black;
+		font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+		font-size: 2vw;
+	}
+header {
+	display: inline-block;
+	background-color: lightslategray;
+	color:white;
+	width: 100%;
+}
+
+header > img {
+	padding: 10px 20px 9px 20px;
+	width: 15%;
+	border-radius: 50%;
+}
+
+h1 {
+	vertical-align:top;
+	font-size: 7vw;
+	margin: 20px 0 0 0;
+	text-align:left;
+}
+
+.title {
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 10px;
+}
+
+.subtitle{
+	margin-top: 0px;
+	margin-left:30px;
+}
+
+ul {
+	padding:15;
+	margin: 0;
+	text-align: left;
+
+}
+
+li {
+	
+	
+}
+footer {
+	background-color: lightblue;
+	margin: 0;
+	padding: 5px;
+	clear:both;
+}
+
+article {
+	background-color: whitesmoke;
+	margin: 0;
+	padding: 20px;
+	clear:both;
+	
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 20px;
+	
+}
+
+/* Image Slideshow */
+
+*{box-sizing:border-box}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.mySlides {
+  display: none;
+}
+
+	.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+	}
+
+.prev:hover, .next:hover {
+	background-color: rgba(0,0,0,0.8);}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 1.2%;
+  margin: 0 2px;
+  background-color: lightblue;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+	
+.active, .dot:hover {
+  background-color: cadetblue;
+}
+	
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+/* Download button*/
+.btn {
+  background-color: lightblue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 2vw;
+  width:25%;
+}
+.btn:hover {
+  background-color: cadetblue;
+	color: black;
+}
+btn {
+	float: left
+}
+/*Next and previous*/
+.footer a{
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+.footer a:hover {
+  background-color: cadetblue;
+  color: black;
+}
+
+footer > .previous {
+  background-color: whitesmoke;
+  color: black;
+}
+
+footer > .Next {
+  background-color: whitesmoke;
+  color: black;
+	float:right;
+}
+footer > .round {
+	border-radius: 50%;
+}
